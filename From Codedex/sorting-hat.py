@@ -7,10 +7,15 @@
 # Relational operators are used to compare two values: ==, !=, >, >=, <, <=.
 # Logical operators are used to combine two or more conditions: and, or, not.
 
+print("\t\t-------------------")   
+print("\t\t SORTING HAT QUIZ")
+print("\t\t-------------------")    
+
 gryffindor = 0
 raven = 0
 huffle = 0
 slyth = 0
+
 print("Q1) Do you like Dawn or Dusk? \n1)  Dawn \n2)  Dusk")
 ans1 = int(input("Answer: "))
 
@@ -51,8 +56,6 @@ elif ans3 == 4:
 else:
     print("Wrong input")
 
-print("\n\nCongratulations! You have completed the quiz. \nNow let's see which house you belong to!")
-
 
 print("\n\nCalculating your house...")
 print("\n\nYour scores are:")
@@ -61,6 +64,8 @@ print("Ravenclaw = ", raven)
 print("Hufflepuff = ", huffle)
 print("Slytherin = ", slyth)
 print("\n")
+
+print("\n\nCongratulations! You have completed the quiz. \nNow let's see which house you belong to!")
 
 if gryffindor > raven and gryffindor > huffle and gryffindor > slyth:
     print("You are in Gryffindor")
